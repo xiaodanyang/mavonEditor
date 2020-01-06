@@ -388,6 +388,7 @@ export default {
             this.$refs.vNoteTextarea.$refs.vTextarea.focus();
         },
         $drag($e) {
+            console.log($e)
             var dataTransfer = $e.dataTransfer;
             if (dataTransfer) {
                 var files = dataTransfer.files;
@@ -398,6 +399,7 @@ export default {
             }
         },
         $paste($e) {
+            console.log($e)
             var clipboardData = $e.clipboardData;
             if (clipboardData) {
                 var items = clipboardData.items;
