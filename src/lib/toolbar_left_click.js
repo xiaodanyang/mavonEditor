@@ -157,7 +157,7 @@ export const toolbar_left_click = (_type, $vm) => {
          'table': {
              prefix: '',
              subfix: '',
-             str: '|column1|column2|column3|\n|-|-|-|\n|content1|content2|content3|\n'
+             str: '|column1|column2|column3|\n|---|---|---|\n|content1|content2|content3|\n'
          },
          'aligncenter': {
            prefix: '::: hljs-center\n\n',
